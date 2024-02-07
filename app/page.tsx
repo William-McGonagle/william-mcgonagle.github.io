@@ -4,6 +4,38 @@ import { Meteors } from "@/components/meteors";
 import { TextGenerateEffect } from "@/components/text-generate-effect";
 import Image from "next/image";
 
+const skills = [
+  "Next.js",
+  "Tailwind",
+  "Typescript",
+  "PostgreSQL",
+  "Prisma",
+  "Git + Github",
+  "CI/CD",
+  "Java + Kotlin",
+  "Python",
+  "C++",
+  "Javascript",
+  "C#",
+  "CSS",
+  "HTML",
+  "Dart",
+  "Figma",
+  "Flutter",
+  "Unity",
+  "Microsoft Excel",
+  "PHP",
+  "React",
+  "SASS",
+  "RSS",
+  "HTTP",
+  "OpenGL",
+  "Microsoft Word",
+  "Bash",
+  "C",
+  "Microsoft Powerpoint",
+];
+
 export default function Home() {
   return (
     <>
@@ -25,6 +57,29 @@ export default function Home() {
             </p>
           </div>
         </BlurBackground>
+      </section>
+      <section className="p-3">
+        <div className="max-w-6xl w-full mx-auto">
+          <h2 className="font-bold font-poppins text-4xl mb-3 mt-12">
+            My Skills.
+          </h2>
+          <p className="max-w-md text-lg mb-6">
+            Blah blah blah blah blahBlah blah blah blah blah Blah blah blah blah
+            blah Blah blah blah blah blah Blah blah blah blah blah.
+          </p>
+          <div className="w-full">
+            {skills.map((i, n) => {
+              return (
+                <span
+                  key={n}
+                  className="inline-block p-2 px-3 border rounded-full bg-white mx-1 my-1 whitespace-nowrap"
+                >
+                  {i}
+                </span>
+              );
+            })}
+          </div>
+        </div>
       </section>
       <section className="p-3">
         <div className="max-w-6xl w-full mx-auto">
