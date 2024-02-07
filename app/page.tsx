@@ -10,6 +10,27 @@ import Connecticut2 from "@/res/connecticut3.webp";
 import Engineering1 from "@/res/engineering1.webp";
 import Engineering2 from "@/res/engineering2.webp";
 import Engineering3 from "@/res/engineering3.webp";
+import { cn } from "@/utils/cn";
+
+const shadowColors = [
+  "shadow-red-500/40",
+  "shadow-orange-500/40",
+  "shadow-amber-500/40",
+  "shadow-yellow-500/40",
+  "shadow-lime-500/40",
+  "shadow-green-500/40",
+  "shadow-emerald-500/40",
+  "shadow-teal-500/40",
+  "shadow-cyan-500/40",
+  "shadow-sky-500/40",
+  "shadow-blue-500/40",
+  "shadow-indigo-500/40",
+  "shadow-violet-500/40",
+  "shadow-purple-500/40",
+  "shadow-fuchsia-500/40",
+  "shadow-pink-500/40",
+  "shadow-rose-500/40",
+];
 
 const articles = [
   {
@@ -189,7 +210,10 @@ export default function Home() {
               return (
                 <span
                   key={n}
-                  className="inline-block font-poppins p-2 px-3 border rounded-full bg-white mx-1 my-1 whitespace-nowrap"
+                  className={cn(
+                    "select-none shadow-2xl hover:scale-110 transition-transform duration-300 inline-block font-poppins p-2 px-3 border rounded-full bg-white mx-1 my-1 whitespace-nowrap",
+                    shadowColors[n % shadowColors.length]
+                  )}
                 >
                   {i}
                 </span>
