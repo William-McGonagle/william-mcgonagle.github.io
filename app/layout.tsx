@@ -41,7 +41,7 @@ export default function RootLayout({
           pages={[
             { name: "About", url: "" },
             { name: "Projects", url: "projects" },
-            { name: "Resume", url: "resume.pdf" },
+            { name: "Experiences", url: "resume" },
             { name: "Contact", url: "contact" },
           ]}
         />

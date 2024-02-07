@@ -15,7 +15,7 @@ export function Navbar({
   const pathname = usePathname();
 
   return (
-    <div className="fixed w-full shadow top-0 p-3 flex flex-row gap-6 backdrop-blur bg-white/80 z-50 align-center justify-center">
+    <div className="fixed w-full shadow top-0 p-3 flex flex-row gap-1 md:gap-6 backdrop-blur bg-white/80 z-50 align-center justify-center">
       {pages.map((i, n) => (
         <Link
           className={
