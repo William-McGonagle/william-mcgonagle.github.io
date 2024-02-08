@@ -11,6 +11,7 @@ import Engineering1 from "@/res/engineering1.webp";
 import Engineering2 from "@/res/engineering2.webp";
 import Engineering3 from "@/res/engineering3.webp";
 import { cn } from "@/utils/cn";
+import { useEffect, useState } from "react";
 
 const shadowColors = [
   "shadow-red-500/40",
@@ -157,12 +158,15 @@ const photos = [
 ];
 
 export default async function Home() {
-  let isGeorgetown = false;
+  let [isGeorgetown, setIsGeorgetown] = useState(false);
+  useEffect(() => {
+    (async () => {
+      const req = await fetch("https://api.ipify.org?format=json");
+      const json = await req.json();
 
-  const req = await fetch("https://api.ipify.org?format=json");
-  const json = await req.json();
-
-  if (json.ip.startsWith("141.161")) isGeorgetown = true;
+      if (json.ip.startsWith("141.161")) setIsGeorgetown(true);
+    })();
+  }, []);
 
   return (
     <>
