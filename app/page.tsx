@@ -1,3 +1,5 @@
+"use client";
+
 import { BlurBackground } from "@/components/blur-background";
 import { DotBackground } from "@/components/dot-background";
 import { Meteors } from "@/components/meteors";
@@ -157,7 +159,7 @@ const photos = [
   // },
 ];
 
-export default async function Home() {
+export default function Home() {
   let [isGeorgetown, setIsGeorgetown] = useState(false);
   useEffect(() => {
     (async () => {
