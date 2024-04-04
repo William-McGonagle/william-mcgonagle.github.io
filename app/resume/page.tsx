@@ -69,7 +69,7 @@ export default function Home() {
       <section className="w-screen min-h-screen p-3 pt-16">
         <div className="max-w-4xl mx-auto aspect-video flex justify-center items-center flex-col gap-3">
           <h1 className="font-bold font-poppins text-6xl text-center">
-            My Résumé.
+            My Resumé.
           </h1>
           <Link
             href="/resume.pdf"
