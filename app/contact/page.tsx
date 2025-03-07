@@ -17,9 +17,8 @@ export default function Home() {
         >
           <h1 className="font-bold font-poppins text-xl">Contact Me.</h1>
           <p>
-            If you want to reach out about anything, just send me an email. I
-            check my email daily and get notified, so I should respond pretty
-            quick.
+            Please reach out to me via email or LinkedIn, and I will respond
+            promptly.
           </p>
           <hr className="my-3" />
           <a

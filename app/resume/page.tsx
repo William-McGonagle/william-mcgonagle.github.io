@@ -29,6 +29,51 @@ const experiences: {
   to?: Date;
 }[] = [
   {
+    title: "Fox Corporation",
+    position: "Business Intelligence Intern",
+    location: "New York, NY",
+    from: new Date("9/1/2024"),
+    description: [
+      "Generated analytical reports of viewership data and demographic trends to find improvements and performance indicators for foxnews.com, foxbusiness.com, and other Fox mobile apps.",
+      "Automated creation of advertisement assessments for ad-sales and finance teams, allowing stakeholders to be notified whenever key performance milestones were hit.",
+    ],
+  },
+  {
+    title: "Goldman Sachs Asset Management",
+    position: "Emerging Leaders Series Participant",
+    location: "Jersey City, NJ",
+    from: new Date("10/1/2024"),
+    to: new Date("3/20/2025"),
+    description: [
+      "Developed foundational knowledge in portfolio management, risk analysis, and investment strategies, with a focus on both traditional and alternative asset classes.",
+      "Engaged in case studies, real-world simulations, and mentorship to deepen understanding of market trends and industry skills, such as asset allocation and risk management.",
+    ],
+  },
+  {
+    title: "Fox Corporation",
+    position: "Data Governance and Tagging Intern",
+    location: "New York, NY",
+    from: new Date("6/1/2024"),
+    to: new Date("8/1/2024"),
+    description: [
+      "Worked with GPT-4.0 to build digital assistants that give institutional insights to various teams across the organization while ensuring data privacy. ",
+      "Made decisions using statistical tools like A/B Tests, surveys, and interviews to discover the needs of each department and to develop plans to increase the productivity of individuals and teams.",
+      "Trained in analytics software like Heap, Amplitude, and Adobe Analytics.",
+    ],
+  },
+  {
+    title: "College Canine",
+    position: "Co-Founder and Chief Technology Officer",
+    location: "Washington, DC",
+    from: new Date("5/1/2024"),
+    description: [
+      "Founded program that connects students with local pet owners at 6+ Universities (Georgetown, Howard University, GW, American University, etc.), offering dog-walking and pet-sitting services.",
+      "Generated 1000+ signups, 1500+ dog walks, and $40k in yearly revenue.",
+      "Built algorithm and coded platform that matches pet owners with available college students for dog walks.",
+      "Worked with Stripe, AWS, Google Cloud, Twilio, Next.js, Tailwind, and OAuth2.",
+    ],
+  },
+  {
     title: "Georgetown Disruptive Technologies",
     position: "President",
     location: "Washington, DC",

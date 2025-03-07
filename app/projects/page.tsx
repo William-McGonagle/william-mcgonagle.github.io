@@ -14,6 +14,38 @@ const projects: {
   tags: string[];
 }[] = [
   {
+    logo: "https://ark-vet-demo.vercel.app/logo.svg",
+    link: "https://ark-vet-demo.vercel.app",
+    title: "Acme Vet.",
+    description:
+      "I created Acme Vet, a cloud-based platform that helps veterinary practices manage appointments, patient records, billing, and client communications. Features include a user-friendly calendar for scheduling, secure electronic medical records accessible from anywhere, and automated client communications like appointment reminders and follow-ups. ",
+    tags: ["Next.js", "Tailwind", "Typescript", "Prisma", "PostgreSQL"],
+  },
+  {
+    logo: "https://ark.collegecanine.com/logo-dark.svg",
+    link: "https://ark.collegecanine.com",
+    title: "Ark Gateway.",
+    description:
+      "Ark Gateway is a veterinary insurance platform that streamlines interactions between insurance providers and veterinarians. The platform offers secure transactions, integration capabilities, flexible user management, and real-time fraud detection using AI. Ark provides detailed reporting and analytics, along with comprehensive documentation and customer support for clients.",
+    tags: ["Next.js", "Tailwind", "Typescript", "Prisma", "PostgreSQL"],
+  },
+  {
+    logo: "https://pressxp.com/logo.svg",
+    link: "https://pressxp.com",
+    title: "PressXP.",
+    description:
+      "PressXP is an online gaming platform that offers users a personalized and interactive experience. Players can create accounts to access features such as commenting on games, receiving tailored game recommendations, and connecting with friends to share gaming experiences. ",
+    tags: ["Next.js", "Tailwind", "Typescript", "Prisma", "PostgreSQL"],
+  },
+  {
+    logo: "https://collegecanine.com/logo.png",
+    link: "https://collegecanine.com",
+    title: "College Canine.",
+    description:
+      "In May 2024, I launched College Canine, a platform connecting students with dog owners seeking reliable walking services. Within two months, the platform expanded to over 50 schools nationwide. I integrated features like real-time tracking, in-app messaging, user reviews, and Stripe Connect for secure payments, enhancing the overall user experience.",
+    tags: ["Next.js", "Tailwind", "Typescript", "Prisma", "PostgreSQL"],
+  },
+  {
     src: "https://reroto.com/thumbnail.png",
     link: "https://reroto.com",
     title: "ReRoto.",
